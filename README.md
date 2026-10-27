@@ -34,3 +34,12 @@ GitHub profile: https://github.com/Ishini01
 ## Note about project links
 
 Only public GitHub repositories are linked. GoalReflect and TodoMVC are displayed without fabricated public links.
+
+## October 2026 hero update
+
+- Slightly smaller, centered circular portrait with a soft blush-pink halo.
+- Floating **Open to Internships** badge links directly to the Contact section.
+- Luxury black-and-pink gradients, orbit outlines and responsive layouts, with reduced-motion support.
+- All original project cards, social links and two public CV PDF files are retained.
+
+To customize portrait size, edit `.photo-frame` width and height in the **ELEGANT HERO REFRESH** section of `index.css`.

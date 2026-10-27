@@ -1,255 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ishini Awanka Ranathunga - IT undergraduate portfolio for Software Engineering and QA internships.">
-    <title>Ishini Awanka Ranathunga | Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e0a10">
+  <meta name="description" content="Portfolio of Ishini Awanka Ranathunga: Software Engineering, Quality Assurance, Android development and computer vision projects.">
+  <title>Ishini Awanka Ranathunga · Software Engineering & QA</title>
+  <link rel="stylesheet" href="index.css?v=20261027">
+  <script src="script.js?v=20261027" defer></script>
 </head>
 <body>
-    <div id="particles-js" aria-hidden="true"></div>
+  <svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.76-.24.76-.54v-2.02c-3.09.67-3.75-1.31-3.75-1.31-.5-1.27-1.24-1.61-1.24-1.61-1.01-.69.08-.68.08-.68 1.11.08 1.7 1.13 1.7 1.13.99 1.69 2.59 1.2 3.22.91.1-.72.39-1.21.71-1.49-2.47-.28-5.06-1.24-5.06-5.51 0-1.22.43-2.21 1.14-2.98-.12-.28-.49-1.41.11-2.94 0 0 .93-.3 3.07 1.14a10.7 10.7 0 0 1 5.58 0c2.14-1.44 3.07-1.14 3.07-1.14.6 1.53.23 2.66.11 2.94.71.77 1.14 1.76 1.14 2.98 0 4.28-2.6 5.23-5.08 5.5.4.35.76 1.02.76 2.07v3.06c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 2H3.55C2.69 2 2 2.68 2 3.53v16.94c0 .85.69 1.53 1.55 1.53h16.9c.86 0 1.55-.68 1.55-1.53V3.53c0-.85-.69-1.53-1.55-1.53ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8v-4.64c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.72H9.52V9.2h2.83v1.3h.04c.39-.75 1.36-1.55 2.79-1.55 2.98 0 3.57 1.96 3.57 4.5v5.3Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-smartphone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 18h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C8 3 4 10 4 16a4 4 0 0 0 4 4C14 20 21 15 20 4ZM5 19c3-5 7-8 12-11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Ishini Awanka Ranathunga, home"><span class="brand-mark">i.</span><span>Ishini Awanka</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span>Menu</span><span class="menu-bars" aria-hidden="true">☰</span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#resume">Resume</a><a class="nav-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-    <header class="site-header">
-        <nav class="nav container">
-            <a href="#home" class="logo">ISHINI AWANKA</a>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> SOFTWARE ENGINEERING &amp; QA INTERNSHIPS</p>
+          <h1 id="hero-heading">Hi, I'm <span class="name-accent">Ishini</span><span class="hero-period">.</span></h1>
+          <p class="hero-role">Ishini Awanka Ranathunga <span class="slash">/</span> IT Undergraduate</p>
+          <p class="hero-description">I build thoughtful digital experiences and enjoy making software more reliable. Exploring <strong>software engineering</strong>, <strong>quality assurance</strong>, and the space between them.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="button button-outline" href="#resume">Download my CV <svg aria-hidden="true"><use href="#i-download"/></svg></a>
+          </div>
+          <div class="social-row"><span>FIND ME ON</span>
+            <a class="social-icon" href="https://github.com/Ishini01" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg aria-hidden="true"><use href="#i-github"/></svg></a>
+            <a class="social-icon" href="https://www.linkedin.com/in/ishini-awanka-0806a8356/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+            <a class="social-icon" href="mailto:awankaranathunga03@gmail.com" aria-label="Email Ishini"><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Profile photograph and internship availability">
+          <div class="photo-halo" aria-hidden="true"></div>
+          <div class="photo-orbit photo-orbit-outer" aria-hidden="true"></div>
+          <div class="photo-orbit photo-orbit-inner" aria-hidden="true"></div>
+          <div class="photo-frame"><img src="profile.png" width="1122" height="1402" alt="Portrait of Ishini Awanka Ranathunga" fetchpriority="high" decoding="async"></div>
+          <a class="photo-sticker" href="#contact" aria-label="Open to internships — contact Ishini">
+            <span class="badge-status-dot" aria-hidden="true"></span><span>Open to Internships</span><span class="badge-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="photo-signature" aria-hidden="true"><span class="signature-sparkle">✧</span> BUILD <span class="signature-separator">/</span> TEST <span class="signature-separator">/</span> CREATE</div>
+          <div class="photo-star" aria-hidden="true">✳</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span class="scroll-label">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span><span class="hero-location">BASED IN SRI LANKA · OPEN TO INTERNSHIPS</span></div>
+    </section>
 
-            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
-                ☰
-            </button>
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div><p class="kicker">01 / A LITTLE ABOUT ME</p><h2>Curiosity meets <em>creativity.</em></h2></div>
+        <div class="about-copy"><p>I'm an Information Technology undergraduate at the Faculty of Applied Sciences, Rajarata University of Sri Lanka. Through academic and team projects, I've worked with Android applications, Python-based web systems, computer vision, and software testing.</p><p>My goal is to contribute to real-world software while growing as a developer and QA professional. I care about clean solutions, continuous learning, and understanding why something works—not just making it work.</p><div class="mini-traits"><span>Problem solver</span><span>Team player</span><span>Always learning</span></div></div>
+      </div>
+    </section>
 
-            <ul id="nav-links" class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="section" id="skills">
+      <div class="container"><p class="kicker">02 / WHAT I WORK WITH</p><div class="section-head"><h2>My toolkit<span class="pink-dot">.</span></h2><p>Technologies explored through coursework and practical projects.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon"><svg aria-hidden="true"><use href="#i-code"/></svg></div><h3>Programming</h3><p>Python · Java · C · C++ · JavaScript · HTML · CSS</p></article>
+          <article class="skill-card"><div class="skill-icon"><svg aria-hidden="true"><use href="#i-layers"/></svg></div><h3>Applications & Data</h3><p>Flask · Android SDK · Firebase Auth · Room · MySQL / MariaDB</p></article>
+          <article class="skill-card"><div class="skill-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></div><h3>Software Testing</h3><p>Test cases · Positive / negative testing · Python browser automation</p></article>
+          <article class="skill-card"><div class="skill-icon"><svg aria-hidden="true"><use href="#i-eye"/></svg></div><h3>AI & Tools</h3><p>TensorFlow · OpenCV · Git · GitHub · VS Code · Colab</p></article>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <section id="home" class="hero section">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <p class="tagline">Software Engineering • QA • IT Undergraduate</p>
-                    <h1>Hi, I’m <span>Ishini Awanka Ranathunga</span></h1>
-                    <p class="hero-description">
-                        I am an undergraduate in Information Technology at Rajarata University of Sri Lanka, interested in building reliable software,
-                        learning modern technologies, and growing through Software Engineering and Quality Assurance internships.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn">View Projects</a>
-                        <a href="#contact" class="btn btn-outline">Contact Me</a>
-                    </div>
-                </div>
+    <section class="section projects-section" id="projects">
+      <div class="container"><p class="kicker">03 / THE WORK</p><div class="section-head"><h2>Projects that tell<br><em>my story.</em></h2><p>From building applications to exploring intelligent systems and software quality.</p></div>
+        <div class="project-toolbar" role="group" aria-label="Filter projects"><button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All projects</button><button class="filter" type="button" data-filter="software" aria-pressed="false">Software</button><button class="filter" type="button" data-filter="qa" aria-pressed="false">QA</button><button class="filter" type="button" data-filter="ai" aria-pressed="false">AI & Data</button></div>
+        <div class="projects-grid">
+          <article class="project-card featured" data-category="software ai">
+            <div class="project-visual visual-garment" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-eye"/></svg></div><div class="visual-label">COMPUTER VISION / WEB APP</div><div class="visual-orbits"><i></i><i></i><i></i></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">FINAL-YEAR GROUP PROJECT</span><span class="project-index">01 / 06</span></div><h3>Garment Defect Detection</h3><p>Developed in a team, this Flask-based inspection system combines computer vision models and rule-based analysis to assess stitches, buttons, labels, and color imbalance.</p><div class="tech-tags"><span>Python</span><span>Flask</span><span>YOLO</span><span>TensorFlow</span><span>MariaDB</span></div><a class="project-link" href="https://github.com/Ishini01/garment_defect_system" target="_blank" rel="noopener noreferrer">Explore repository <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+          </article>
+          <article class="project-card" data-category="software">
+            <div class="project-visual visual-goals" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-smartphone"/></svg></div><div class="visual-label">ANDROID / PRODUCTIVITY</div><div class="visual-checks"><b></b><b></b><b></b></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">MOBILE APPLICATION</span><span class="project-index">02 / 06</span></div><h3>GoalReflect</h3><p>A Java Android app for setting goals, recording reflections, managing notifications, and viewing weekly progress reports.</p><div class="tech-tags"><span>Java</span><span>Android SDK</span><span>Firebase Auth</span><span>Room</span></div><span class="project-unpublished">Academic project · Repository not public</span></div>
+          </article>
+          <article class="project-card" data-category="qa software">
+            <div class="project-visual visual-qa" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-check"/></svg></div><div class="visual-label">SOFTWARE QUALITY / AUTOMATION</div><div class="visual-testlines"><b></b><b></b><b></b></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">TEST AUTOMATION</span><span class="project-index">03 / 06</span></div><h3>TodoMVC Test Automation</h3><p>Python-based browser checks for five test cases, covering positive and negative scenarios to validate TodoMVC application behavior.</p><div class="tech-tags"><span>Python</span><span>Test cases</span><span>Browser automation</span></div><span class="project-unpublished">Coursework · Repository not public</span></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <div class="project-visual visual-herb" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-leaf"/></svg></div><div class="visual-label">MACHINE LEARNING / CLASSIFICATION</div><div class="visual-blobs"></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">COMPUTER VISION</span><span class="project-index">04 / 06</span></div><h3>HerbVision — Leaf Classifier</h3><p>An Ayurvedic leaf classification project exploring transfer learning, augmentation, and image preprocessing.</p><div class="tech-tags"><span>Python</span><span>MobileNetV2</span><span>TensorFlow</span></div><a class="project-link" href="https://github.com/Ishini01/HerbVision" target="_blank" rel="noopener noreferrer">Explore repository <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+          </article>
+          <article class="project-card" data-category="software">
+            <div class="project-visual visual-editor" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-code"/></svg></div><div class="visual-label">DESKTOP APPLICATION / PYTHON</div><div class="visual-dots"><b></b><b></b><b></b></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">DESKTOP SOFTWARE</span><span class="project-index">05 / 06</span></div><h3>Advanced Image Editor</h3><p>A Python image editing tool supporting common image adjustments, filters, cropping, drawing, and enhancement features.</p><div class="tech-tags"><span>Python</span><span>Image processing</span></div><a class="project-link" href="https://github.com/Ishini01/AdvancedImageEditor" target="_blank" rel="noopener noreferrer">Explore repository <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <div class="project-visual visual-plant" aria-hidden="true"><div class="visual-icon"><svg><use href="#i-leaf"/></svg></div><div class="visual-label">IMAGE ANALYSIS / RESEARCH</div><div class="visual-plantline"></div></div>
+            <div class="project-content"><div class="project-heading"><span class="project-type">IMAGE ANALYSIS</span><span class="project-index">06 / 06</span></div><h3>Plant Analysis System</h3><p>Exploratory Python notebooks for image-based plant analysis, including leaf counting, plant height, and discoloration.</p><div class="tech-tags"><span>Python</span><span>OpenCV</span><span>Jupyter</span></div><a class="project-link" href="https://github.com/Ishini01/Plant_analysis_system" target="_blank" rel="noopener noreferrer">Explore repository <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                <div class="hero-image">
-                    <div class="profile-card">
-                        <div class="profile-glow"></div>
-                        <div class="profile-ring">
-                            <img src="profile.png" alt="Portrait of Ishini Awanka Ranathunga">
-                        </div>
-                        <div class="profile-badge">Open to internships</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="section" id="education">
+      <div class="container"><p class="kicker">04 / MY JOURNEY</p><div class="section-head"><h2>Education &amp;<br><em>involvement.</em></h2><p>Technical learning supported by teamwork and student leadership.</p></div>
+        <div class="timeline-grid"><div class="timeline"><article><span class="timeline-date">2023 — PRESENT</span><h3>BSc in Information Technology (Applied Sciences)</h3><p>Rajarata University of Sri Lanka · Faculty of Applied Sciences</p></article><article><span class="timeline-date">SCHOOL EDUCATION</span><h3>G.C.E. Advanced Level</h3><p>Maliyadewa Balika Vidyalaya, Kurunegala</p></article></div><div class="timeline"><article><span class="timeline-date">2026 — PRESENT</span><h3>Editor, Rotaract Club</h3><p>Rotaract Club of Rajarata University of Sri Lanka</p></article><article><span class="timeline-date">2024 — PRESENT</span><h3>IEEE Student Branch Member</h3><p>Rajarata University of Sri Lanka</p></article></div></div>
+      </div>
+    </section>
 
-        <section id="about" class="section dark">
-            <div class="container narrow">
-                <h2>About Me</h2>
-                <p>
-                    Hello! I’m Ishini Awanka, an Information Technology undergraduate with hands-on experience in software development,
-                    Android applications, machine learning, computer vision, and software testing. I enjoy turning ideas into useful systems and improving quality through careful testing and problem-solving.
-                </p>
-                <p>
-                    My main career interests are <strong>Software Engineering</strong> and <strong>Quality Assurance</strong>.
-                    I am currently building my portfolio through academic projects, practical coding work, and test automation experience.
-                </p>
-            </div>
-        </section>
+    <section class="section cert-section" id="certificates">
+      <div class="container"><p class="kicker">05 / KEEP LEARNING</p><div class="section-head"><h2>Learning never<br><em>stops.</em></h2><p>Selected professional courses and certifications.</p></div>
+        <div class="cert-grid">
+          <article class="cert-card"><span class="cert-number">01</span><div><h3>Google AI Essentials</h3><p>Google / Coursera · 2025</p></div><a href="https://www.coursera.org/account/accomplishments/specialization/SRI6S6UPLDHV" target="_blank" rel="noopener noreferrer" aria-label="View Google AI Essentials certificate"><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></article>
+          <article class="cert-card"><span class="cert-number">02</span><div><h3>Python for Beginners</h3><p>University of Moratuwa · 2025</p></div></article>
+          <article class="cert-card"><span class="cert-number">03</span><div><h3>Java Programming for Beginners &amp; OOP</h3><p>Simplilearn · 2025</p></div></article>
+          <article class="cert-card"><span class="cert-number">04</span><div><h3>Introduction to HTML &amp; CSS</h3><p>Alison · 2025</p></div><a href="https://alison.com/certification/check/2172b95f09" target="_blank" rel="noopener noreferrer" aria-label="View HTML and CSS certificate"><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></article>
+          <article class="cert-card"><span class="cert-number">05</span><div><h3>Google UX Design</h3><p>Google / Coursera · 2025</p></div></article>
+        </div>
+      </div>
+    </section>
 
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="cards-grid skills-grid">
-                    <article class="card skill-card">
-                        <h3>Programming</h3>
-                        <p>Python, Java, C, C++, JavaScript, HTML, CSS</p>
-                    </article>
-                    <article class="card skill-card">
-                        <h3>Development</h3>
-                        <p>Flask, Android Studio, Firebase Authentication, Room Database, MySQL / MariaDB</p>
-                    </article>
-                    <article class="card skill-card">
-                        <h3>QA & Testing</h3>
-                        <p>Test cases, positive and negative testing, browser automation, functional validation</p>
-                    </article>
-                    <article class="card skill-card">
-                        <h3>AI & Tools</h3>
-                        <p>TensorFlow, OpenCV, Git, GitHub, Google Colab, VS Code</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+    <section class="section resume-section" id="resume">
+      <div class="container resume-layout"><div><p class="kicker">06 / MY RESUME</p><h2>Want the<br><em>details?</em></h2><p class="resume-description">I’m exploring both development and software quality. Choose the CV that’s most relevant to your opportunity. Both are downloadable PDFs.</p></div><div class="resume-options"><a class="resume-card" href="assets/cv/Ishini_Awanka_Ranathunga_SE_CV_Public.pdf" download="Ishini_Awanka_Ranathunga_Software_Engineering_CV.pdf"><span class="resume-icon"><svg aria-hidden="true"><use href="#i-code"/></svg></span><span class="resume-label"><strong>Software Engineering CV</strong><small>PDF · Development-focused</small></span><span class="resume-download"><svg aria-hidden="true"><use href="#i-download"/></svg></span></a><a class="resume-card" href="assets/cv/Ishini_Awanka_Ranathunga_QA_CV_Public.pdf" download="Ishini_Awanka_Ranathunga_QA_CV.pdf"><span class="resume-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span><span class="resume-label"><strong>Quality Assurance CV</strong><small>PDF · Testing-focused</small></span><span class="resume-download"><svg aria-hidden="true"><use href="#i-download"/></svg></span></a></div></div>
+    </section>
 
-        <section id="education" class="section dark">
-            <div class="container">
-                <h2>Education</h2>
-                <div class="cards-grid">
-                    <article class="card">
-                        <h3>2023 – Present</h3>
-                        <p><strong>Rajarata University of Sri Lanka</strong></p>
-                        <p>BSc in Information Technology (Applied Sciences)</p>
-                        <p>Faculty of Applied Sciences</p>
-                    </article>
-                    <article class="card">
-                        <h3>School Education</h3>
-                        <p><strong>Maliyadewa Balika Vidyalaya</strong></p>
-                        <p>Kurunegala</p>
-                        <p>G.C.E. Advanced Level</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project-filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="software">Software</button>
-                    <button class="filter-btn" data-filter="qa">QA</button>
-                    <button class="filter-btn" data-filter="ai">AI</button>
-                </div>
-
-                <div class="cards-grid projects-grid">
-                    <article class="project card" data-category="software ai">
-                        <h3>Garment Defect Detection System</h3>
-                        <p>
-                            A Flask-based computer vision system for garment quality inspection, integrating modules for broken stitches,
-                            button defects, labels, and color imbalance.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span><span>Flask</span><span>TensorFlow</span><span>OpenCV</span><span>MariaDB</span>
-                        </div>
-                        <a href="https://github.com/Ishini01/garment_defect_system" target="_blank">View Project</a>
-                    </article>
-
-                    <article class="project card" data-category="software">
-                        <h3>GoalReflect – Android App</h3>
-                        <p>
-                            A personal goal reflection application with goal tracking, reflections, notifications, and weekly reports,
-                            developed using Java, Firebase Authentication, and Room Database.
-                        </p>
-                        <div class="project-tags">
-                            <span>Java</span><span>Android SDK</span><span>Firebase</span><span>Room</span>
-                        </div>
-                    </article>
-
-                    <article class="project card" data-category="qa software">
-                        <h3>TodoMVC Test Automation</h3>
-                        <p>
-                            Python-based browser automation assignment with positive and negative test cases to validate TodoMVC functionality.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span><span>Automation</span><span>Testing</span><span>QA</span>
-                        </div>
-                    </article>
-
-                    <article class="project card" data-category="ai">
-                        <h3>AI-Powered Ayurvedic Leaf Classifier (HerbVision)</h3>
-                        <p>
-                            A deep learning-based image classification project using transfer learning and data preprocessing for Ayurvedic leaf identification.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span><span>TensorFlow</span><span>MobileNetV2</span><span>Computer Vision</span>
-                        </div>
-                        <a href="https://github.com/Ishini01/HerbVision" target="_blank">View Project</a>
-                    </article>
-
-                    <article class="project card" data-category="software ai">
-                        <h3>Advanced Image Editor</h3>
-                        <p>
-                            A Python-based image editing application with processing features such as filters, transformations,
-                            and image enhancement.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span><span>Desktop App</span><span>Image Processing</span>
-                        </div>
-                        <a href="https://github.com/Ishini01/AdvancedImageEditor" target="_blank">View Project</a>
-                    </article>
-
-                    <article class="project card" data-category="ai">
-                        <h3>Plant Analysis System</h3>
-                        <p>
-                            An image-processing and analysis project focused on plant growth-related tasks such as leaf counting,
-                            plant height detection, and discoloration analysis.
-                        </p>
-                        <div class="project-tags">
-                            <span>Python</span><span>Image Analysis</span><span>Jupyter</span>
-                        </div>
-                        <a href="https://github.com/Ishini01/Plant_analysis_system" target="_blank">View Project</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="certificates" class="section dark">
-            <div class="container">
-                <h2>Certificates</h2>
-                <div class="cards-grid">
-                    <article class="card">
-                        <h3>Google AI Essentials</h3>
-                        <p>Issued by Coursera</p>
-                        <a href="https://www.coursera.org/account/accomplishments/specialization/SRI6S6UPLDHV" target="_blank">View Certificate</a>
-                    </article>
-                    <article class="card">
-                        <h3>Google UX Certification</h3>
-                        <p>Issued by Coursera</p>
-                        <a href="https://www.coursera.org/account/accomplishments/specialization/7G3AZCFAB17A" target="_blank">View Certificate</a>
-                    </article>
-                    <article class="card">
-                        <h3>Introduction to HTML and CSS</h3>
-                        <p>Issued by Alison</p>
-                        <a href="https://alison.com/certification/check/2172b95f09" target="_blank">View Certificate</a>
-                    </article>
-                    <article class="card">
-                        <h3>C++ Training Crash Course for Beginners</h3>
-                        <p>Issued by Udemy</p>
-                        <a href="https://www.udemy.com/certificate/UC-7cbc1066-47ee-435a-82ac-1619043eccd4/" target="_blank">View Certificate</a>
-                    </article>
-                    <article class="card">
-                        <h3>Master of Essential C++ Programming</h3>
-                        <p>Issued by Udemy</p>
-                        <a href="https://www.udemy.com/certificate/UC-1a8d4323-192f-42da-a948-0b50e2d949a3/" target="_blank">View Certificate</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="container narrow">
-                <h2>Get In Touch</h2>
-                <p>If you would like to connect with me for an internship or collaboration, feel free to reach out.</p>
-                <div class="contact-list">
-                    <a href="mailto:awankaranathunga03@gmail.com">Email: awankaranathunga03@gmail.com</a>
-                    <a href="tel:+94743283799">Phone: +94 74 328 3799</a>
-                    <a href="https://www.linkedin.com/in/ishini-awanka-0806a8356/" target="_blank">LinkedIn Profile</a>
-                    <a href="https://github.com/Ishini01" target="_blank">GitHub Profile</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Ishini Awanka Ranathunga | All Rights Reserved</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="script.js"></script>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content"><p class="kicker">07 / SAY HELLO</p><h2>Let's make something<br><em>meaningful.</em></h2><p>Interested in collaborating or discussing a Software Engineering or QA internship? I’d love to connect.</p><a class="contact-email" href="mailto:awankaranathunga03@gmail.com">awankaranathunga03@gmail.com <svg aria-hidden="true"><use href="#i-arrow"/></svg></a><div class="contact-social"><a href="https://github.com/Ishini01" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-github"/></svg> GitHub</a><a href="https://www.linkedin.com/in/ishini-awanka-0806a8356/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn</a><a href="tel:+94743283799">+94 74 328 3799</a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Ishini Awanka Ranathunga</span><span>Designed with purpose <span class="heart" aria-hidden="true">♥</span></span><a href="#home">Back to top ↑</a></div></footer>
 </body>
 </html>
